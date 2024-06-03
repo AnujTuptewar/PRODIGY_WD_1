@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+.content {
+    padding-top: 60px; /* Adjust based on the height of your nav */
+}
+
+section {
+    padding: 60px 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+}
+
+section:nth-child(even) {
+    background-color: #f9f9f9;
+}
